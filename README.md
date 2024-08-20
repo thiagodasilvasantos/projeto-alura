@@ -1,16 +1,3 @@
- Binary file addedBIN +2.53 MB 
-img/cenario-passo0.png
-Loading
- Binary file addedBIN +213 KB 
-img/cenario-passo11-cidade-perdida.png
-Loading
- Binary file addedBIN +348 KB 
-img/cenario-passo4-voltar-casa.png
-Loading
- 90 changes: 90 additions & 0 deletions90  
-index.html
-Original file line number	Diff line number	Diff line change
-@@ -0,0 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -101,10 +88,6 @@ Original file line number	Diff line number	Diff line change
     <script src="script.js"></script>
 </body>
 </html>
- 11 changes: 11 additions & 0 deletions11  
-script.js
-Original file line number	Diff line number	Diff line change
-@@ -0,0 +1,11 @@
 const avanca = document.querySelectorAll('.btn-proximo');
 
 avanca.forEach(button => {
@@ -116,10 +99,6 @@ avanca.forEach(button => {
         document.getElementById(proximoPasso).classList.add('ativo');
     })
 })
- 33 changes: 33 additions & 0 deletions33  
-style.css
-Original file line number	Diff line number	Diff line change
-@@ -0,0 +1,33 @@
 body {
     background-color: #1D4221;
     color: white;
